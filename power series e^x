@@ -1,0 +1,8 @@
+prompt = 'Input the value of x ';
+x = input(prompt)
+
+for k = 1:n
+    Y = (exp(x)/factorial(n))*(x-2)^n;
+end
+
+disp(Y)
